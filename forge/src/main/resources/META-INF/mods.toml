@@ -1,0 +1,52 @@
+
+modLoader="javafml" #mandatory
+
+loaderVersion="[40,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+license="LGPLv3"
+
+[[mods]] #mandatory
+
+modId="enchantery" #mandatory
+
+version = "${version}"
+
+displayName="Enchantery" #mandatory
+
+logoFile="icon.png" #optional
+
+credits="Ordana" #optional
+
+authors="Ordana" #optional
+
+itemIcon="enchantery:template" #catalogue icon
+description='''
+A logical re-balancing of how and where to obtain Enchantments
+'''
+
+[[dependencies.enchantery]] #optional
+    # the modid of the dependency
+    modId="forge" #mandatory
+
+    mandatory=true #mandatory
+
+    versionRange="[40,)" #mandatory
+
+    ordering="NONE"
+    side="BOTH"
+# Here's another dependency
+[[dependencies.enchantery]]
+    modId="minecraft"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.20,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.enchantery]]
+
+    modId="moonlight"
+    mandatory=true
+    versionRange="[1.20-2.0.35,]"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "enchantery",
+  "version": "${version}",
+  "name": "Enchantery",
+  "description": "A logical re-balancing of how and where to obtain Enchantments",
+  "authors": [
+    "Ordana"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/enchantery",
+    "sources": "https://github.com/AstralOrdana/enchantery"
+  },
+  "license": "LGPLv3",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ordana.enchantery.fabric.EnchanteryFabric"
+    ],
+    "modmenu": [
+      "com.ordana.enchantery.integration.fabric.ModMenuCompat"
+    ]
+  },
+  "mixins": [
+    "enchantery.mixins.json",
+    "enchantery-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.19.2",
+    "moonlight": ">=1.19.2-2.0.35"
+  }
+}
