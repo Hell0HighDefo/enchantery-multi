@@ -1,2 +1,3 @@
-# The Enchantery Mod for Minecraft
-## A logical re-balancing of how and where to obtain Enchantments
+# THIS IS IN NO WAY AFFLIATED WITH THE BASE ENCHANTERY MOD, THIS REPOSITORY IS SIMPLY OPEN FOR DEBUGGING PURPOSES, PLEASE SUPPORT THE ACTUAL MOD
+
+https://modrinth.com/mod/enchantery
